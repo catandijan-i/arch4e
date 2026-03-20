@@ -1,0 +1,86 @@
+* {
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f3e2b5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 75px;
+    font-family: 'Honera';
+    src: url(font/HONERA-Regular.ttf);
+    color: #423D2C;
+}
+
+img {
+    border-radius: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    position: absolute;
+    top: 450px;
+    height: 2000px;
+    width: 1100px;
+    z-index: -1;
+ 
+    background-color: #E0CD95;
+    border-radius: 15px;
+}
+
+.poems .poemstwo {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    color: #423D2C;
+}
+
+ul li {
+    margin: 0 40px;
+    list-style: none;
+    display: inline-block;
+}
+
+ul li:hover {
+    filter: drop-shadow(5px 5px 10px #333);
+}
+
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #423D2C;
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+}
+
+.story {
+    position: absolute;
+    top: 1200px;
+}
+
+.storytwo {
+    position: absolute;
+    top: 1650px;
+}
